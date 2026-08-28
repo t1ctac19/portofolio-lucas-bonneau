@@ -1,2 +1,2 @@
-# portofolio-bonneau-lucas
+# portofolio-lucas-bonneau
 portfolio web 5
