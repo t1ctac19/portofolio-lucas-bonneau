@@ -40,7 +40,7 @@ PHP
 SQL
 
 
-## Les cendres d'iliria
+## Projet 1
 
 ![projet 1](medias/iliria.png)
 
@@ -79,6 +79,53 @@ De créé un intro de film entièrement en vectoriel et de faire 6 image chacun.
 On a créé une histoire comme demandé mais on a décidé de faire notre projet dans un style semblable au **pixel art**. Puisque le vectoriel n'est pas fait pour le **pixel art** c'était assez long de faire les personnages et les objets.
 
 ### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
+
+
+
+## Projet 1
+
+![projet 1](medias/iliria.png)
+
+
+### Nom de votre projet:
+Shogun
+
+### Mention académique ou personnel:
+académique
+
+### Réalisé dans le cadre du cours:
+Intéractivité ludique
+
+### Individuel ou en équipe:
+Individuel
+
+### Votre ou vos rôle(s) dans le projet:
+code du jeu, **level design**, son du jeu
+
+### Logiciels ou techniques utilisées:
+Godot
+
+### Catégorie du projet:
+jeu vidéo
+
+### Description courte du projet (Résumé en 1 phrase):
+création d'un jeu vidéo avec des portes et des clés intéractif
+
+### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
+créé une expérience interactive avec trois niveaux différent. Il fallait aussi avoir des objets interactif spécifique et une attribution de touche grace a godot
+
+
+### Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
+j'ai fait un jeu de combat platformer dans le style de blasphemous avec trois niveau de plus en plus dur, le but est de tuer le dernier boss pour gagner
+
+### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
+lien github: https://github.com/t1ctac19/lucas_bonneau_godot_tp3
+
+
+
+
+
+
 
 
 ## Critère d'évalution
