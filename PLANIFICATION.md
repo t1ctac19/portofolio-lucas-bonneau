@@ -82,9 +82,9 @@ On a créé une histoire comme demandé mais on a décidé de faire notre projet
 
 
 
-## Projet 1
+## Projet 2
 
-![projet 1](medias/iliria.png)
+![projet 2](medias/shogun.png)
 
 
 ### Nom de votre projet:
@@ -124,7 +124,90 @@ lien github: https://github.com/t1ctac19/lucas_bonneau_godot_tp3
 
 
 
+## Projet 3
 
+![projet 3](medias/seul.png)
+
+
+### Nom de votre projet:
+Seul
+
+### Mention académique ou personnel:
+Académique
+
+### Réalisé dans le cadre du cours:
+Animation 3d, traitement audiovisuel, audio 2
+
+### Individuel ou en équipe:
+Individuel
+
+### Votre ou vos rôle(s) dans le projet:
+Animation 3d et musique
+
+### Logiciels ou techniques utilisées:
+Maya, Max msp et Touchdesigner
+
+### Catégorie du projet:
+expérience multimédias 
+
+### Description courte du projet (Résumé en 1 phrase):
+créé une expérience multimédias visuel et sonore, controlée par Max et touchdesigner
+
+### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
+On devait créé une grosse performance de 5 à 10min qui combinais plusieurs cours, on devait avoir un projet d'animation 3d, une piste audio interactive grâce à Max et combiner le tout dans Touchdesigner. Une main devais controler les scènes de Touch grâce à une caméra et l'autre devais controler Max grâce à un controleur MIDI.
+
+### Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
+J'ai décidé d'animer un personnage qui marche seul sur une plage. Le thème de la plage et de la solitude était donc aussi mon thème dans Max et Touch.
+
+### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
+lien github:
+
+
+
+## Projet 4
+
+![projet 4](medias/seul.png)
+
+
+### Nom de votre projet:
+Messenger rise
+
+### Mention académique ou personnel:
+Académique
+
+### Réalisé dans le cadre du cours:
+Réalité mixte
+
+### Individuel ou en équipe:
+Équipe
+
+### Votre ou vos rôle(s) dans le projet:
+**level design** de la deuxième ville et de la zone de victoire, animation de tout les personnages, placement de beaucoup d'assets dans les villes
+
+### Logiciels ou techniques utilisées:
+Unity
+
+### Catégorie du projet:
+Jeu vidéo 
+
+### Description courte du projet (Résumé en 1 phrase):
+Créé un jeu interactif en vr 
+
+### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
+On devais créé un jeu en réalité virtuelle en équipe, le sujet était libre. Le jeu devait absolument contenir plusieurs objet interactif.
+
+### Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
+On a créé un jeu de livreur de lettre dans un monde médiéval, le but du joueur est d'aller porter un certains nombres de lettres pour débloquer la prochaine zone, la dernière zone est le chateau du roi. Les lettres sont marqué par des faisceaux lumineux et l'endroit pour aller le porter aussi 
+
+### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
+lien github:
+
+
+
+
+
+
+## Processus de création
 
 
 
