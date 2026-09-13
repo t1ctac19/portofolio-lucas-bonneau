@@ -166,7 +166,7 @@ lien github:
 
 ## Projet 4
 
-![projet 4](medias/seul.png)
+![projet 4](medias/messenger_rise.png)
 
 
 ### Nom de votre projet:
@@ -180,6 +180,9 @@ Réalité mixte
 
 ### Individuel ou en équipe:
 Équipe
+
+### Nom de vos coéquipiers:
+Jérémy Thériault, Zackary Warren
 
 ### Votre ou vos rôle(s) dans le projet:
 **level design** de la deuxième ville et de la zone de victoire, animation de tout les personnages, placement de beaucoup d'assets dans les villes
@@ -200,7 +203,7 @@ On devais créé un jeu en réalité virtuelle en équipe, le sujet était libre
 On a créé un jeu de livreur de lettre dans un monde médiéval, le but du joueur est d'aller porter un certains nombres de lettres pour débloquer la prochaine zone, la dernière zone est le chateau du roi. Les lettres sont marqué par des faisceaux lumineux et l'endroit pour aller le porter aussi 
 
 ### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
-lien github:
+lien github: https://github.com/t1ctac19/travail_3_realiter_mixte
 
 
 
