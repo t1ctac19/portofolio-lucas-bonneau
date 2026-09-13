@@ -2,7 +2,7 @@
 
 ## Style du portfolio
 
-![moodboard](medias/moodboard.png)
+![moodboard](medias/moodboard.jpg)
 
 ### Mes compétences 
 
