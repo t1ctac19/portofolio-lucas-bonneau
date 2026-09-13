@@ -68,6 +68,7 @@ faire 6 image chacun
 Photoshop et vectoriel
 
 ### Catégorie du projet:
+Illustrations
 
 ### Description courte du projet (Résumé en 1 phrase):
 un monde dystopique divisé, en deux les riches et les pauvres, se battent car les pauvres veulent des meilleurs condition de vie
