@@ -126,7 +126,7 @@ lien github: https://github.com/t1ctac19/lucas_bonneau_godot_tp3
 
 ## Projet 3
 
-![projet 3](medias/shogun.png)
+![projet 3](medias/seul.png)
 
 
 ### Nom de votre projet:
@@ -162,6 +162,45 @@ J'ai décidé d'animer un personnage qui marche seul sur une plage. Le thème de
 ### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
 lien github:
 
+
+
+## Projet 4
+
+![projet 4](medias/seul.png)
+
+
+### Nom de votre projet:
+Messenger rise
+
+### Mention académique ou personnel:
+Académique
+
+### Réalisé dans le cadre du cours:
+Réalité mixte
+
+### Individuel ou en équipe:
+Équipe
+
+### Votre ou vos rôle(s) dans le projet:
+**level design** de la deuxième ville et de la zone de victoire, animation de tout les personnages, placement de beaucoup d'assets dans les villes
+
+### Logiciels ou techniques utilisées:
+Unity
+
+### Catégorie du projet:
+Jeu vidéo 
+
+### Description courte du projet (Résumé en 1 phrase):
+Créé un jeu interactif en vr 
+
+### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
+On devais créé un jeu en réalité virtuelle en équipe, le sujet était libre. Le jeu devait absolument contenir plusieurs objet interactif.
+
+### Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
+On a créé un jeu de livreur de lettre dans un monde médiéval, le but du joueur est d'aller porter un certains nombres de lettres pour débloquer la prochaine zone, la dernière zone est le chateau du roi. Les lettres sont marqué par des faisceaux lumineux et l'endroit pour aller le porter aussi 
+
+### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
+lien github:
 
 
 
