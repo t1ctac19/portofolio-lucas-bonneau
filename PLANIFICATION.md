@@ -4,39 +4,38 @@
 
 ![moodboard](medias/moodboard.jpg)
 
+###
+
 ### Mes compétences 
 
-- Designer, coder et publier des sites Web dynamiques
 - Réaliser et tourner des vidéos
 - Animer des créations 2D et 3D
 - Concevoir des compositions sonores et visuelles interactives
 - Assembler des environnements de réalité virtuelle
 - Penser et optimiser l’expérience utilisateur
 - Créer des univers immersifs et interactifs
-- Collaborer avec diverses disciplines artistiques ou interdisciplinaires
 
 ### Logiciel connu
 
-Visual Studio Code
-Photoshop
-Illustrator
-Lightroom
-After Effects
-Davinci Resolve
-Maya
-Unity
-Reaper
-Max
-Microsoft Teams
+- Visual Studio Code
+- Photoshop
+- Illustrator
+- Lightroom
+- After Effects
+- Davinci Resolve
+- Maya
+- Unity
+- Reaper
+- Max
+- Microsoft Teams
 
 
 ### Langage de programmation
 
-
-HTML
-CSS
-JavaScript
-SQL
+- HTML
+- CSS
+- JavaScript
+- SQL
 
 
 ## Projet 1
@@ -70,10 +69,10 @@ Photoshop et vectoriel
 Illustrations
 
 ### Description courte du projet (Résumé en 1 phrase):
-un monde dystopique divisé, en deux les riches et les pauvres, se battent car les pauvres veulent des meilleurs condition de vie
+Illustration de 6 image en vectoriel pour un film fictif 
 
 ### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
-De créé un intro de film entièrement en vectoriel et de faire 6 image chacun. On devait aussi créé une histoire a notre projet
+créé un intro de film entièrement en vectoriel et de faire 6 image chacun. On devait aussi créé une histoire a notre projet
 
 ### Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
 On a créé une histoire comme demandé mais on a décidé de faire notre projet dans un style semblable au **pixel art**. Puisque le vectoriel n'est pas fait pour le **pixel art** c'était assez long de faire les personnages et les objets.
