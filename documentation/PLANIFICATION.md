@@ -2,9 +2,7 @@
 
 ## Style du portfolio
 
-![moodboard](assets/images/moodboard.jpg)
-
-###
+![moodboard](../assets/images/moodboard.jpg)
 
 ### Mes compétences 
 
@@ -40,7 +38,7 @@
 
 ## Projet 1
 
-![projet 1](medias/iliria.png)
+![projet 1](../assets/images/iliria.png)
 
 
 
@@ -83,7 +81,7 @@ On a créé une histoire comme demandé mais on a décidé de faire notre projet
 
 ## Projet 2
 
-![projet 2](assets/images/shogun.png)
+![projet 2](../assets/images/shogun.png)
 
 
 ### Nom de votre projet:
@@ -125,7 +123,7 @@ lien github: https://github.com/t1ctac19/lucas_bonneau_godot_tp3
 
 ## Projet 3
 
-![projet 3](medias/seul.png)
+![projet 3](../assets/images/seul.png)
 
 
 ### Nom de votre projet:
@@ -165,7 +163,7 @@ lien github:
 
 ## Projet 4
 
-![projet 4](medias/messenger_rise.png)
+![projet 4](../assets/images/messenger_rise.png)
 
 
 ### Nom de votre projet:
