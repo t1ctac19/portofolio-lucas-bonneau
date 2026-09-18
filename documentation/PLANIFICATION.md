@@ -83,7 +83,7 @@ On a créé une histoire comme demandé mais on a décidé de faire notre projet
 
 ## Projet 2
 
-![projet 2](medias/shogun.png)
+![projet 2](assets/images/shogun.png)
 
 
 ### Nom de votre projet:
