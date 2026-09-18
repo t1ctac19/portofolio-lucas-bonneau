@@ -17,7 +17,14 @@ crée moi un portfolio avec cette persona
 
 ## prompt 
 
-- **Date :** 2026-08-28
+- **Date :** 2026-09-18
 - **Prompt :** "crée moi un portfolio avec cette persona. J’aimerais avoir un stage dans une compagnie faisant de l’animation 2d ou 3d. Une petite entreprise. Mon talent et mes anciens travaux. Un design simple avec des couleurs assez sombre avec des touches de bleu. J’aimerais qu’elle ai aimée mon portfolio"
 - **Outil :** stitch.ai
 - **Résultat :** Le code généré par l'IA a été intégré dans le fichier `index.html` et `style.css`. J'ai ensuite moi même modifié la couleur de fond des cartes et ajusté la taille de la police pour améliorer la lisibilité.
+
+- **Date :** 2026-09-01
+- **Prompt :** "peux tu régler mes css, il semble y avoir une erreur qui empèche mon css d'aparaitre dans la page "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a régler mon problème en liant bien mes css et mon html
+
+
