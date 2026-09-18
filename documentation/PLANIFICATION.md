@@ -35,6 +35,9 @@
 - JavaScript
 - SQL
 
+### Objectif de carrière
+
+Je souhaite obtenir un poste d'animation 3d dans le domaine des jeux vidéo ou des films d'animation, où je pourrai utiliser mes compétences en animation et en montage vidéo.
 
 ## Projet 1
 
