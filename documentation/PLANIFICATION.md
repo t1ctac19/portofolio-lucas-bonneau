@@ -2,7 +2,7 @@
 
 ## Style du portfolio
 
-![moodboard](medias/moodboard.jpg)
+![moodboard](assets/images/moodboard.jpg)
 
 ###
 
