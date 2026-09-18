@@ -37,7 +37,7 @@
 
 ### Objectif de carrière
 
-Je souhaite obtenir un poste d'animation 3d dans le domaine des jeux vidéo ou des films d'animation, où je pourrai utiliser mes compétences en animation et en montage vidéo.
+Passionné par l’animation 3D, je souhaite mettre mes compétences en animation et en montage vidéo au service d’un studio de jeux vidéo ou de films d’animation, tout en contribuant à la création de projets visuels captivants et créatifs.
 
 ## Projet 1
 
