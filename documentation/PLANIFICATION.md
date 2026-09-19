@@ -211,15 +211,15 @@ lien github: https://github.com/t1ctac19/travail_3_realiter_mixte
 
 Je vais expliquer comment j'ai réaliser le projet **messenger rise** 
 
-1- on a créé un trello pour organisé nos idées et on a séparé nos tache en même temps
-2- Ensuite on a commencé chacun par créé la base de nos maps respectives
-3- J'ai ensuite commencé par rassemblé des assets en groupe pour facilité la notre vie (table avec objet, grange avec objet, etc)
-4- J'ai fais les animations de tout les personnages et je les ai dispersé dans les cartes de tout le monde
-5- Ensuite j'ai fais les hitbox de tout mes objets 
-6- Jérémy et Zackary on fait leur map et le code du jeu
-7- j'ai finalisé les maps de tout le monde en ajoutant les assets et en faisant des tests de hitbox avec Jérémy
-8- J'ai ensuite créé la map de victoire
-9- A la fin on a tous travaillé ensemble pour s'assuré que le vr du jeu marchais bien 
+- 1. on a créé un trello pour organisé nos idées et on a séparé nos tache en même temps
+- 2. Ensuite on a commencé chacun par créé la base de nos maps respectives
+- 3. J'ai ensuite commencé par rassemblé des assets en groupe pour facilité la notre vie (table avec objet, grange avec objet, etc)
+- 4. J'ai fais les animations de tout les personnages et je les ai dispersé dans les cartes de tout le monde
+- 5. Ensuite j'ai fais les hitbox de tout mes objets 
+- 6. Jérémy et Zackary on fait leur map et le code du jeu
+- 7. j'ai finalisé les maps de tout le monde en ajoutant les assets et en faisant des tests de hitbox avec Jérémy
+- 8. J'ai ensuite créé la map de victoire
+- 9. A la fin on a tous travaillé ensemble pour s'assuré que le vr du jeu marchais bien 
 
 
 ## Web
@@ -230,7 +230,7 @@ Base de données en ligne (gratuite)
 
 ### Animations
 
-Anime.js
+Anime.js ou gsap
 
 ### Structure de navigation
 
