@@ -70,7 +70,7 @@ Photoshop et vectoriel
 Illustrations
 
 ### Description courte du projet (Résumé en 1 phrase):
-Illustration de 6 image en vectoriel pour un film fictif 
+Illustration de 6 image en vectoriel pour un intro de film fictif 
 
 ### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
 créé un intro de film entièrement en vectoriel et de faire 6 image chacun. On devait aussi créé une histoire a notre projet
@@ -109,7 +109,7 @@ Godot
 jeu vidéo
 
 ### Description courte du projet (Résumé en 1 phrase):
-création d'un jeu vidéo avec des portes et des clés intéractif
+création d'un jeu vidéo en 2d avec des portes et des clés fonctionnels ainsi que des animations et un gameplay polie 
 
 ### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
 créé une expérience interactive avec trois niveaux différent. Il fallait aussi avoir des objets interactif spécifique et une attribution de touche grace a godot
