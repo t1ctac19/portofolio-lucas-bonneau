@@ -79,7 +79,7 @@ créé un intro de film entièrement en vectoriel et de faire 6 image chacun. On
 On a créé une histoire comme demandé mais on a décidé de faire notre projet dans un style semblable au **pixel art**. Puisque le vectoriel n'est pas fait pour le **pixel art** c'était assez long de faire les personnages et les objets.
 
 ### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
-
+https://github.com/t1ctac19/iliria/blob/main/README.md
 
 
 ## Projet 2
