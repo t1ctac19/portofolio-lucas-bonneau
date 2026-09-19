@@ -28,3 +28,15 @@ crée moi un portfolio avec cette persona
 - **Résultat :** il a régler mon problème en liant bien mes css et mon html
 
 
+- **Date :** 2026-09-01
+- **Prompt :** "peux tu réduire la hauteur des deux classification-card en les laissant au milieu de leur border "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a régler mon problème en liant bien mes css et mon html
+
+- **Date :** 2026-09-01
+- **Prompt :** "peux tu m'aider a rendre l'entièreté de mon component responsive "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a rendu mon component plus responsive, mais se n'est pas parfait 
+
+
+
