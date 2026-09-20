@@ -73,7 +73,7 @@ Illustrations
 Illustration de 6 image en vectoriel pour un intro de film fictif 
 
 ### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
-créé un intro de film entièrement en vectoriel et de faire 6 image chacun. On devait aussi créé une histoire a notre projet
+Un intro de film fictif fait entièrement en vectoriel incluant 12 image. Une histoire devait être accompagné a notre projet pour expliqué le contexte du film.
 
 ### Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
 On a créé une histoire comme demandé mais on a décidé de faire notre projet dans un style semblable au **pixel art**. Puisque le vectoriel n'est pas fait pour le **pixel art** c'était assez long de faire les personnages et les objets.
