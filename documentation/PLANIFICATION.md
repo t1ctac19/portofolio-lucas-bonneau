@@ -112,8 +112,7 @@ jeu vidéo
 création d'un jeu vidéo en 2d avec des portes et des clés fonctionnels ainsi que des animations et un gameplay polie 
 
 ### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
-créé une expérience interactive avec trois niveaux différent. Il fallait aussi avoir des objets interactif spécifique et une attribution de touche grace a godot
-
+Une expérience interactive avec trois niveaux différent. Avec des objets interactifs spécifiques et une attribution de touche grâce à godot.
 
 ### Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
 j'ai fait un jeu de combat platformer dans le style de blasphemous avec trois niveau de plus en plus dur, le but est de tuer le dernier boss pour gagner
@@ -151,7 +150,7 @@ Maya, Max msp et Touchdesigner
 expérience multimédias 
 
 ### Description courte du projet (Résumé en 1 phrase):
-créé une expérience multimédias visuel et sonore, controlée par Max et touchdesigner
+Une expérience multimédias visuel et sonore, controlée par Max et touchdesigner
 
 ### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
 On devait créé une grosse performance de 5 à 10min qui combinais plusieurs cours, on devait avoir un projet d'animation 3d, une piste audio interactive grâce à Max et combiner le tout dans Touchdesigner. Une main devais controler les scènes de Touch grâce à une caméra et l'autre devais controler Max grâce à un controleur MIDI.
@@ -197,7 +196,7 @@ Jeu vidéo
 Créé un jeu interactif en vr 
 
 ### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
-On devais créé un jeu en réalité virtuelle en équipe, le sujet était libre. Le jeu devait absolument contenir plusieurs objet interactif.
+Un jeu en réalité virtuelle en équipe, le sujet était libre. Le jeu devait absolument contenir plusieurs objet interactif.
 
 ### Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
 On a créé un jeu de livreur de lettre dans un monde médiéval, le but du joueur est d'aller porter un certains nombres de lettres pour débloquer la prochaine zone, la dernière zone est le chateau du roi. Les lettres sont marqué par des faisceaux lumineux et l'endroit pour aller le porter aussi 
@@ -226,11 +225,11 @@ Je vais expliquer comment j'ai réaliser le projet **messenger rise**
 
 ### Gestion des données
 
-Base de données en ligne (gratuite)
+Base de données en ligne (gratuite), c'est la manière la moins compliqué et la moins chers 
 
 ### Animations
 
-Anime.js ou gsap
+Anime.js ou gsap, nous avons déjà appris a utilisé Anime.js et gsap semble ressembler a sa mais en plus simple
 
 ### Structure de navigation
 
@@ -238,7 +237,7 @@ One-pager avec pop-up
 
 ### Hébergement
 
-GitHub Pages
+GitHub Pages 
 
 
 
