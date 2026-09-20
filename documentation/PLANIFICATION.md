@@ -79,7 +79,7 @@ créé un intro de film entièrement en vectoriel et de faire 6 image chacun. On
 On a créé une histoire comme demandé mais on a décidé de faire notre projet dans un style semblable au **pixel art**. Puisque le vectoriel n'est pas fait pour le **pixel art** c'était assez long de faire les personnages et les objets.
 
 ### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
-https://github.com/t1ctac19/iliria/blob/main/README.md
+lien github: https://github.com/t1ctac19/iliria/blob/main/README.md
 
 
 ## Projet 2
@@ -160,7 +160,7 @@ On devait créé une grosse performance de 5 à 10min qui combinais plusieurs co
 J'ai décidé d'animer un personnage qui marche seul sur une plage. Le thème de la plage et de la solitude était donc aussi mon thème dans Max et Touch.
 
 ### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
-lien github:
+lien github: https://github.com/t1ctac19/seul
 
 
 
