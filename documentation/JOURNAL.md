@@ -84,11 +84,11 @@ crée moi un portfolio avec cette persona
 
 ### 10e
 - **Date :** 2026-09-22
-- **Prompt :** "peux tu régler le problème de grosseur dans les nouveau component ils n'ont pas les titres aligner les uns les autres  "
+- **Prompt :** "remplace le moodboard par le projet iliria  "
 - **Outil :** Co-Pilot (VS Code)
-- **Résultat :** il a régler le problème qu'il avait créé
+- **Résultat :** il a remplacé le projet par le bon
 
 
-remplace le moodboard par le projet iliria
+
 
 
