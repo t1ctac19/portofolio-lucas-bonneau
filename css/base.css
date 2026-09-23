@@ -14,6 +14,18 @@ body {
   height: 100vh;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.demo-reel-text,
+.projects-title,
+.projects-section > h2 {
+  font-weight: 400;
+}
+
 a {
   text-decoration: none;
 }
@@ -43,10 +55,13 @@ a {
 
 .component-card {
   grid-column: 2;
+  width: 60%;
+  justify-self: center;
 }
 
 .projects-section {
-  padding: 0 clamp(1rem, 4vw, 3rem) clamp(1rem, 4vw, 3rem);
+  margin-top: clamp(6rem, 12vw, 9rem);
+  padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 3rem) clamp(1rem, 4vw, 3rem);
 }
 
 .projects-section > h2 {
@@ -59,10 +74,13 @@ a {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
+  gap: 0.75rem;
+  justify-items: center;
 }
 
 .projects-grid .component-card {
+  width: 80.5%;
+  justify-self: center;
   grid-column: auto;
 }
 
@@ -74,9 +92,14 @@ a {
   .demo-reel-text,
   .component-card {
     grid-column: 1;
+    width: 100%;
   }
 
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+
+  .projects-grid .component-card {
+    width: 100%;
   }
 }

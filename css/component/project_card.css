@@ -9,7 +9,7 @@
   background-color: var(--secondary-background-color);
   color: var(--secondary-color);
   width: 100%;
-  margin-right: 0;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 
@@ -150,6 +150,21 @@
 .projects-grid .classification-card1,
 .projects-grid .classification-card2 {
   min-height: 2.75rem;
+}
+
+.projects-section {
+  margin-top: clamp(3rem, 7vw, 6rem);
+  padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 3rem) clamp(1rem, 4vw, 3rem);
+}
+
+#projects-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 0 1rem;
+  color: var(--white-color);
+  font-family: var(--font-family);
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
 }
 
 @media (max-width: 600px) {
