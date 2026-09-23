@@ -89,6 +89,71 @@ crée moi un portfolio avec cette persona
 - **Résultat :** il a remplacé le projet par le bon
 
 
+### 11e
+- **Date :** 2026-09-23
+- **Prompt :** "peux tu réduires la grosseur des card component de 30%  "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a réduit la taille des 4 nouveaux projet mais pas celui du haut
+
+
+### 12e
+- **Date :** 2026-09-23
+- **Prompt :** "colles plus les nouveaux et réduit aussi le premier gros  "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a rien changé 
+
+### 12e
+- **Date :** 2026-09-23
+- **Prompt :** "réduit la grosseur du component a coté de demo reel de 15 % et agrandi les component de 15% aussi  "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a juste modifier la grosseur des 4 nouveaux
+
+
+### 13e
+- **Date :** 2026-09-23
+- **Prompt :** "éloigne les deux sections pour mieux les distingué  "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a rien fait je l'ai déplacé a la mains 
+
+
+### 14e
+- **Date :** 2026-09-23
+- **Prompt :** "peux tu régler mon project title il ne semble pas appliqué le css "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** le css s'applique
+
+  ### 15e
+- **Date :** 2026-09-23
+- **Prompt :** "peut tu rendre la typo de tout mes --font-family moins gras "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a régler mon problème de typo
+
+
+  ### 15e
+- **Date :** 2026-09-23
+- **Prompt :** "  peux tu créer un component qui resemble a sa, c'est une barre de progression, met le css dans le dossier progress_bar.css "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a créer quelque chose qui ne ressemblais pas a la photo
+
+
+
+  ### 16e
+- **Date :** 2026-09-23
+- **Prompt :** "  enlève le curseur blanc, remet le titre que tu as enlevé, allonge la barre pour que sa soit au moins 75% de la page et remet la nouvelle section "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a refait la barre mais sans mettre d'espace entre les deux sections
+
+
+
+  ### 16e
+- **Date :** 2026-09-23
+- **Prompt :** "sépare la section autre projet et la section progress  "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a refait la barre mais sans mettre d'espace entre les deux sections
+
+
+
+
 
 
 
