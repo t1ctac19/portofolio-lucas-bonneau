@@ -2,9 +2,7 @@
 
 ## Style du portfolio
 
-![moodboard](medias/moodboard.jpg)
-
-###
+![moodboard](../assets/images/moodboard.jpg)
 
 ### Mes compétences 
 
@@ -37,10 +35,13 @@
 - JavaScript
 - SQL
 
+### Objectif de carrière
+
+Passionné par l’animation 3D, je souhaite mettre mes compétences en animation et en montage vidéo au service d’un studio de jeux vidéo ou de films d’animation, tout en contribuant à la création de projets visuels captivants et créatifs.
 
 ## Projet 1
 
-![projet 1](medias/iliria.png)
+![projet 1](../assets/images/iliria.png)
 
 
 
@@ -69,21 +70,21 @@ Photoshop et vectoriel
 Illustrations
 
 ### Description courte du projet (Résumé en 1 phrase):
-Illustration de 6 image en vectoriel pour un film fictif 
+Illustration de 6 images en vectoriel pour une intro de film fictif.
 
 ### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
-créé un intro de film entièrement en vectoriel et de faire 6 image chacun. On devait aussi créé une histoire a notre projet
+Une intro de film fictif faite entièrement en vectoriel incluant 12 images. Une histoire devait être accompagnée à notre projet pour expliquer le contexte du film.
 
 ### Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
-On a créé une histoire comme demandé mais on a décidé de faire notre projet dans un style semblable au **pixel art**. Puisque le vectoriel n'est pas fait pour le **pixel art** c'était assez long de faire les personnages et les objets.
+On a créé une histoire comme demandé, mais on a décidé de faire notre projet dans un style semblable au pixel art. Puisque le vectoriel n'est pas fait pour le pixel art, c'était assez long de faire les personnages et les objets.
 
 ### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
-
+lien github: https://github.com/t1ctac19/iliria/blob/main/README.md
 
 
 ## Projet 2
 
-![projet 2](medias/shogun.png)
+![projet 2](../assets/images/shogun.png)
 
 
 ### Nom de votre projet:
@@ -108,14 +109,13 @@ Godot
 jeu vidéo
 
 ### Description courte du projet (Résumé en 1 phrase):
-création d'un jeu vidéo avec des portes et des clés intéractif
+Création d'un jeu vidéo en 2D avec des portes et des clés fonctionnelles ainsi que des animations et un gameplay poli.
 
 ### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
-créé une expérience interactive avec trois niveaux différent. Il fallait aussi avoir des objets interactif spécifique et une attribution de touche grace a godot
-
+Une expérience interactive avec trois niveaux différents. Avec des objets interactifs spécifiques et une attribution de touches grâce à Godot.
 
 ### Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
-j'ai fait un jeu de combat platformer dans le style de blasphemous avec trois niveau de plus en plus dur, le but est de tuer le dernier boss pour gagner
+J'ai fait un jeu de combat platformer dans le style de Blasphemous avec trois niveaux de plus en plus durs, le but est de tuer le dernier boss pour gagner.
 
 ### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
 lien github: https://github.com/t1ctac19/lucas_bonneau_godot_tp3
@@ -125,7 +125,7 @@ lien github: https://github.com/t1ctac19/lucas_bonneau_godot_tp3
 
 ## Projet 3
 
-![projet 3](medias/seul.png)
+![projet 3](../assets/images/seul.png)
 
 
 ### Nom de votre projet:
@@ -150,22 +150,22 @@ Maya, Max msp et Touchdesigner
 expérience multimédias 
 
 ### Description courte du projet (Résumé en 1 phrase):
-créé une expérience multimédias visuel et sonore, controlée par Max et touchdesigner
+Une expérience multimédia visuelle et sonore, contrôlée par Max et TouchDesigner.
 
 ### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
-On devait créé une grosse performance de 5 à 10min qui combinais plusieurs cours, on devait avoir un projet d'animation 3d, une piste audio interactive grâce à Max et combiner le tout dans Touchdesigner. Une main devais controler les scènes de Touch grâce à une caméra et l'autre devais controler Max grâce à un controleur MIDI.
+On devait créer une grosse performance de 5 à 10 min qui combinait plusieurs cours, on devait avoir un projet d'animation 3D, une piste audio interactive grâce à Max et combiner le tout dans TouchDesigner. Une main devait contrôler les scènes de Touch grâce à une caméra et l'autre devait contrôler Max grâce à un contrôleur MIDI.
 
 ### Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
 J'ai décidé d'animer un personnage qui marche seul sur une plage. Le thème de la plage et de la solitude était donc aussi mon thème dans Max et Touch.
 
 ### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
-lien github:
+lien github: https://github.com/t1ctac19/seul
 
 
 
 ## Projet 4
 
-![projet 4](medias/messenger_rise.png)
+![projet 4](../assets/images/messenger_rise.png)
 
 
 ### Nom de votre projet:
@@ -193,13 +193,13 @@ Unity
 Jeu vidéo 
 
 ### Description courte du projet (Résumé en 1 phrase):
-Créé un jeu interactif en vr 
+Un jeu interactif en VR avec un système de lettres à aller livrer.
 
 ### Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):
-On devais créé un jeu en réalité virtuelle en équipe, le sujet était libre. Le jeu devait absolument contenir plusieurs objet interactif.
+Un jeu en réalité virtuelle en équipe, le sujet était libre. Le jeu devait absolument contenir plusieurs objets interactifs.
 
 ### Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):
-On a créé un jeu de livreur de lettre dans un monde médiéval, le but du joueur est d'aller porter un certains nombres de lettres pour débloquer la prochaine zone, la dernière zone est le chateau du roi. Les lettres sont marqué par des faisceaux lumineux et l'endroit pour aller le porter aussi 
+On a créé un jeu de livreur de lettres dans un monde médiéval, le but du joueur est d'aller porter un certain nombre de lettres pour débloquer la prochaine zone, la dernière zone est le château du roi. Les lettres sont marquées par des faisceaux lumineux et l'endroit pour aller les porter aussi.
 
 ### Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):
 lien github: https://github.com/t1ctac19/travail_3_realiter_mixte
@@ -210,26 +210,27 @@ lien github: https://github.com/t1ctac19/travail_3_realiter_mixte
 
 Je vais expliquer comment j'ai réaliser le projet **messenger rise** 
 
-1- on a créé un trello pour organisé nos idées et on a séparé nos tache en même temps
-2- Ensuite on a commencé chacun par créé la base de nos maps respectives
-3- J'ai ensuite commencé par rassemblé des assets en groupe pour facilité la notre vie (table avec objet, grange avec objet, etc)
-4- J'ai fais les animations de tout les personnages et je les ai dispersé dans les cartes de tout le monde
-5- Ensuite j'ai fais les hitbox de tout mes objets 
-6- Jérémy et Zackary on fait leur map et le code du jeu
-7- j'ai finalisé les maps de tout le monde en ajoutant les assets et en faisant des tests de hitbox avec Jérémy
-8- J'ai ensuite créé la map de victoire
-9- A la fin on a tous travaillé ensemble pour s'assuré que le vr du jeu marchais bien 
+- 1- On a créé un Trello pour organiser nos idées et on a séparé nos tâches en même temps.
+- 2- Ensuite, on a commencé chacun par créer la base de nos maps respectives pour avoir une surface de travail personnelle chacun.
+- 3- J'ai ensuite commencé par rassembler des objets en groupe pour faciliter notre vie (table avec objets, grange avec objets, etc.).
+- 4- J'ai appliqué les animations de tous les personnages et je les ai dispersés dans les cartes de tout le monde.
+- 5- Ensuite, j'ai fait les hitbox de tous mes objets pour empêcher le joueur de passer à travers les murs.
+- 6- Jérémy et Zackary ont fait leur map et le code du jeu.
+- 7- J'ai finalisé les maps de tout le monde en ajoutant les objets et en faisant des tests de hitbox avec Jérémy.
+- 8- J'ai ensuite créé la map de victoire pour avoir une fin différente qu'un écran de victoire nul.
+- 9- À la fin, on a tous travaillé ensemble pour s'assurer que le VR du jeu marchait bien.
+
 
 
 ## Web
 
 ### Gestion des données
 
-Base de données en ligne (gratuite)
+Base de données en ligne (gratuite), c'est la manière la moins compliqué et la moins chers 
 
 ### Animations
 
-Anime.js
+Anime.js ou gsap, nous avons déjà appris a utilisé Anime.js et gsap semble ressembler a sa mais en plus simple
 
 ### Structure de navigation
 
@@ -237,7 +238,7 @@ One-pager avec pop-up
 
 ### Hébergement
 
-GitHub Pages
+GitHub Pages 
 
 
 
