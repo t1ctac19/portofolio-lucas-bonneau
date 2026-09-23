@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/variable.css" />
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/component.css" />
+    <link rel="stylesheet" href="css/component/project_card.css" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
   </head>
   <body>
     <main>
       <div class="container">
+        <div class="demo-reel-text">
+          <h2>Demo reel</h2>
+        </div>
         <div class="component-card">
           <div>
             <div class="header-card">
@@ -36,6 +41,83 @@
           </div>
         </div>
       </div>
+
+      <section class="projects-section" aria-labelledby="projects-title">
+        <h2 id="projects-title">Autres projets</h2>
+        <div class="projects-grid">
+          <article class="component-card">
+            <div>
+              <div class="header-card">
+                <p>projet // 02</p>
+              </div>
+              <div class="component-card-top"></div>
+              <div class="image-card"><img src="assets/images/iliria.png" alt="projet iliria" /></div>
+              <div class="background-card">
+                <div class="classification-order-card">
+                  <div class="classification-card1"><p>photoshop</p></div>
+                  <div class="classification-card2"><p>vectorielle</p></div>
+                </div>
+                <p class="header-paragraph">Les cendres d’illiria</p>
+                <p class="text-paragraph">Un projet visuel réalisé autour de la composition, de la retouche et de l’illustration vectorielle.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="component-card">
+            <div>
+              <div class="header-card">
+                <p>projet // 03</p>
+              </div>
+              <div class="component-card-top"></div>
+              <div class="image-card"><img src="assets/images/messenger_rise.png" alt="projet messenger rise" /></div>
+              <div class="background-card">
+                <div class="classification-order-card">
+                  <div class="classification-card1"><p>design graphique</p></div>
+                  <div class="classification-card2"><p>composition</p></div>
+                </div>
+                <p class="header-paragraph">Messenger Rise</p>
+                <p class="text-paragraph">Une proposition graphique conçue pour mettre en valeur une identité forte et expressive.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="component-card">
+            <div>
+              <div class="header-card">
+                <p>projet // 04</p>
+              </div>
+              <div class="component-card-top"></div>
+              <div class="image-card"><img src="assets/images/shogun.png" alt="projet shogun" /></div>
+              <div class="background-card">
+                <div class="classification-order-card">
+                  <div class="classification-card1"><p>illustration</p></div>
+                  <div class="classification-card2"><p>concept</p></div>
+                </div>
+                <p class="header-paragraph">Shogun</p>
+                <p class="text-paragraph">Une recherche d’univers et de formes pour construire une direction visuelle singulière.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="component-card">
+            <div>
+              <div class="header-card">
+                <p>projet // 05</p>
+              </div>
+              <div class="component-card-top"></div>
+              <div class="image-card"><img src="assets/images/seul.png" alt="projet seul" /></div>
+              <div class="background-card">
+                <div class="classification-order-card">
+                  <div class="classification-card1"><p>photographie</p></div>
+                  <div class="classification-card2"><p>édition</p></div>
+                </div>
+                <p class="header-paragraph">Seul</p>
+                <p class="text-paragraph">Une série d’images qui explore l’espace, le silence et la présence du sujet.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
     </main>
   </body>
 </html>

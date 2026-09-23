@@ -17,3 +17,66 @@ body {
 a {
   text-decoration: none;
 }
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 20px;
+  padding: clamp(1rem, 4vw, 3rem);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.demo-reel-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family);
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  width: 100%;
+  min-height: 100%;
+  margin-bottom: 0;
+  color: var(--white-color);
+}
+
+.component-card {
+  grid-column: 2;
+}
+
+.projects-section {
+  padding: 0 clamp(1rem, 4vw, 3rem) clamp(1rem, 4vw, 3rem);
+}
+
+.projects-section > h2 {
+  margin: 0 0 1rem;
+  color: var(--white-color);
+  font-family: var(--font-family);
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.projects-grid .component-card {
+  grid-column: auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .demo-reel-text,
+  .component-card {
+    grid-column: 1;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

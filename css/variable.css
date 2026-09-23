@@ -2,10 +2,15 @@
   --primary-color: #061423;
   --secondary-color: #b2c8e7;
   --green-color: #ccff8e;
+  --white-color: #ffffff;
   --primary-background-color: #0d0e0f;
   --secondary-background-color: #1b1c1d;
   --secondary-transparent-30-color: #b2c8e74d;
   --secondary-transparent-10-color: #b2c8e71a;
   --green-transparent-30-color: #ccff8e4d;
   --green-transparent-10-color: #ccff8e1a;
+  --font-family: "Gasoek One", sans-serif;
+  --font-family-secondary: "Syne", sans-serif;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Gasoek+One&family=Syne:wght@400..800&display=swap");
