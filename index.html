@@ -12,6 +12,14 @@
   </head>
   <body>
     <main>
+      <header class="hero" aria-label="Présentation">
+        <h1 class="hero__name">
+          <span class="hero__name--first">Lucas</span>
+          <span class="hero__name--last">Bonneau</span>
+        </h1>
+        <p class="hero__portfolio">Portfolio</p>
+      </header>
+
       <div class="container">
         <div class="demo-reel-text">
           <h2>Demo reel</h2>
@@ -149,8 +157,57 @@
       </section>
 
       <section class="progress-section" aria-labelledby="progress-title">
-        <h2 id="progress-title" class="progress-title">Progress</h2>
+        <h2 id="progress-title" class="progress-title">Mes compétences</h2>
         <div class="progress-component">
+          <span class="progress-component__label">Maya</span>
+          <div
+            class="progress-component__track"
+            role="progressbar"
+            aria-valuenow="70"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <span class="progress-component__fill" aria-hidden="true"></span>
+          </div>
+        </div>
+                <div class="progress-component">
+          <span class="progress-component__label">unity</span>
+          <div
+            class="progress-component__track"
+            role="progressbar"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <span class="progress-component__fill" aria-hidden="true"></span>
+          </div>
+        </div>
+                <div class="progress-component">
+          <span class="progress-component__label">after effects</span>
+          <div
+            class="progress-component__track"
+            role="progressbar"
+            aria-valuenow="55"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <span class="progress-component__fill" aria-hidden="true"></span>
+          </div>
+        </div>
+                <div class="progress-component">
+          <span class="progress-component__label">illustrator</span>
+          <div
+            class="progress-component__track"
+            role="progressbar"
+            aria-valuenow="65"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <span class="progress-component__fill" aria-hidden="true"></span>
+          </div>
+        </div>
+                <div class="progress-component">
+          <span class="progress-component__label">Maya</span>
           <div
             class="progress-component__track"
             role="progressbar"
@@ -158,10 +215,19 @@
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            <span class="progress-component__label">Lorem ipsum</span>
             <span class="progress-component__fill" aria-hidden="true"></span>
           </div>
         </div>
+      </section>
+
+
+
+      <section class="contact-section" aria-labelledby="contact-title">
+        <h2 id="contact-title" class="contact-title">Contact</h2>
+        <p class="contact-text">
+          Vous pouvez me contacter par courriel à l’adresse suivante :
+          <a href="mailto:lucas.bonneau@umontreal.ca" class="contact-link">lucas.bonneau19@icloud.com</a>
+        </p>
       </section>
     </main>
   </body>
