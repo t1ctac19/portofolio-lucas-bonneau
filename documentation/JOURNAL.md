@@ -151,6 +151,68 @@ crée moi un portfolio avec cette persona
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a refait la barre mais sans mettre d'espace entre les deux sections
 
+  ### 17e
+- **Date :** 2026-09-23
+- **Prompt :** "peux tu mettres le texte du progress bar au dessus de la barre et non a l'intérieur  "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a sortie le texte de la progress bar
+
+
+  ### 17e
+- **Date :** 2026-09-23
+- **Prompt :** "rend la progress bar et le texte qui l'acompagne responsive elle devrait devenir plus mince   "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a rendu la progress bar plus ou moins responsive
+
+  ### 18e
+- **Date :** 2026-09-23
+- **Prompt :** "rend mes titres responsive   "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a rendu les titres responsive
+
+
+
+  ### 19e
+- **Date :** 2026-09-23
+- **Prompt :** "refait se design pour ma page contact    "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a créé ma page contact mais j'ai du modifier les titres 
+
+  ### 20e
+- **Date :** 2026-09-23
+- **Prompt :** "rend le titre contact de la même grosseur que les autre titre de section    "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a régler le titre 
+
+
+  ### 21e
+- **Date :** 2026-09-23
+- **Prompt :** "refait se design pour le titre demo reel    "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a régler le titre
+
+  ### 22e
+- **Date :** 2026-09-23
+- **Prompt :** "rend mes component-card plus responsive le classification ne fontionne vraiment pas bien, écrase les un peu moins aussi    "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a régler le titre
+
+
+
+  ### 23e
+- **Date :** 2026-09-23
+- **Prompt :** "peut tu me faire une nav bar avec le meme design que les classification-card, il faudrais 4 bouton différent    "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a créer une nav bar fonctionnelle 
+
+
+
+
+
+
+
+
+
 
 
 
