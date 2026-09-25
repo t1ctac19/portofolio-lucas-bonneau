@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/component/project_card.css" />
     <link rel="stylesheet" href="css/component/progress_bar.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
   </head>
   <body>
     <main>
+        <nav class="site-navigation" aria-label="Navigation principale">
+        <a class="site-navigation__link site-navigation__link--blue" href="#accueil">Accueil</a> <!--met un lien vers mon demo reel qui est l'acceuil--> 
+        <a class="site-navigation__link site-navigation__link--green" href="#projets">Projets</a> <!--met un lien vers mes projets-->
+        <a class="site-navigation__link site-navigation__link--blue" href="#competences">Compétences</a> <!--met un lien vers mes compétences-->
+        <a class="site-navigation__link site-navigation__link--green" href="#contact">Contact</a> <!--met un lien vers ma section contact-->
+      </nav>
       <header class="hero" aria-label="Présentation">
         <h1 class="hero__name">
           <span class="hero__name--first">Lucas</span>
@@ -20,7 +27,7 @@
         <p class="hero__portfolio">Portfolio</p>
       </header>
 
-      <div class="container">
+      <div class="container" id="accueil">
         <div class="demo-reel-text">
           <h2 class="demo-reel-title">
             <span>Demo</span>
@@ -57,7 +64,7 @@
         </div>
       </div>
 
-      <section class="projects-section" aria-labelledby="projects-title">
+      <section class="projects-section" id="projets" aria-labelledby="projects-title">
         <h2 id="projects-title" class="projects-title">Autres projets</h2>
         <div class="projects-grid">
           <article class="component-card">
@@ -159,7 +166,7 @@
         </div>
       </section>
 
-      <section class="progress-section" aria-labelledby="progress-title">
+      <section class="progress-section" id="competences" aria-labelledby="progress-title">
         <h2 id="progress-title" class="progress-title">Mes compétences</h2>
         <div class="progress-component">
           <span class="progress-component__label">Maya</span>
@@ -225,7 +232,7 @@
 
 
 
-      <section class="contact-section" aria-labelledby="contact-title">
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
         <h2 id="contact-title" class="contact-title">Contact</h2>
 
         <div class="contact-panel">
