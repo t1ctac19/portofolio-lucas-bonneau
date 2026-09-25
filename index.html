@@ -12,13 +12,19 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
   </head>
   <body>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Ouvrir le menu" />
+    <label for="nav-toggle" class="burger" aria-label="Ouvrir le menu de navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="site-navigation" id="site-navigation" aria-label="Navigation principale">
+      <a class="site-navigation__link site-navigation__link--blue" href="#accueil">Accueil</a>
+      <a class="site-navigation__link site-navigation__link--green" href="#projets">Projets</a>
+      <a class="site-navigation__link site-navigation__link--blue" href="#competences">Compétences</a>
+      <a class="site-navigation__link site-navigation__link--green" href="#contact">Contact</a>
+    </nav>
     <main>
-        <nav class="site-navigation" aria-label="Navigation principale">
-        <a class="site-navigation__link site-navigation__link--blue" href="#accueil">Accueil</a> <!--met un lien vers mon demo reel qui est l'acceuil--> 
-        <a class="site-navigation__link site-navigation__link--green" href="#projets">Projets</a> <!--met un lien vers mes projets-->
-        <a class="site-navigation__link site-navigation__link--blue" href="#competences">Compétences</a> <!--met un lien vers mes compétences-->
-        <a class="site-navigation__link site-navigation__link--green" href="#contact">Contact</a> <!--met un lien vers ma section contact-->
-      </nav>
       <header class="hero" aria-label="Présentation">
         <h1 class="hero__name">
           <span class="hero__name--first">Lucas</span>
@@ -217,7 +223,7 @@
           </div>
         </div>
                 <div class="progress-component">
-          <span class="progress-component__label">Maya</span>
+          <span class="progress-component__label">Max msp</span>
           <div
             class="progress-component__track"
             role="progressbar"
@@ -242,7 +248,7 @@
 
           <div class="contact-links" aria-label="Réseaux sociaux">
             <div class="contact-item">
-              <div class="contact-icon contact-icon--instagram" aria-hidden="true">  <!-- tout le reste sert a faire le logo Instagram  -->
+              <div class="contact-icon contact-icon--instagram" aria-hidden="true">  <!-- tout ce qui suit sert a faire le logo Instagram  -->
                 <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <rect x="8" y="8" width="48" height="48" rx="14" fill="none" stroke="url(#instaStroke)" stroke-width="3"/>
                   <circle cx="32" cy="32" r="12" fill="none" stroke="url(#instaStroke)" stroke-width="3"/>
