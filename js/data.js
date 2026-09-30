@@ -6,7 +6,7 @@ async function loadProjects() {
  
 async function init() {
   const projects = await loadProjects();
-  const project_grid = document.querySelector(".projects-container");
+  const project_grid = document.querySelector(".projects-grid");
  
   console.table(projects);
   projects.forEach((project) => {
