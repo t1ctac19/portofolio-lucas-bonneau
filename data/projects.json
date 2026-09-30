@@ -1,0 +1,39 @@
+
+[
+
+
+  {
+    "number": "projet // 02",
+    "title": "Les cendres d'Iliria",
+    "image": "./assets/images/iliria.png",
+    "alt": "projet iliria",
+    "categories": ["photoshop", "vectorielle"],
+    "description": "Illustration de 6 images en vectoriel pour une intro de film fictif."
+  },
+
+  {
+    "number": "projet // 03",
+    "title": "Messenger Rise",
+    "image": "./assets/images/messenger_rise.png",
+    "alt": "projet messenger rise",
+    "categories": ["unity", "level design"],
+    "description": "Un jeu interactif en VR avec un système de lettres à aller livrer."
+  },
+  {
+    "number": "projet // 04",
+    "title": "Shogun",
+    "image": "./assets/images/shogun.png",
+    "alt": "projet shogun",
+    "categories": ["Godot", "programmation"],
+    "description": "Création d'un jeu vidéo en 2D avec des portes et des clés fonctionnelles ainsi que des animations et un gameplay poli."
+  },
+
+  {
+    "number": "projet // 05",
+    "title": "seul",
+    "image": "./assets/images/seul.png",
+    "alt": "projet seul",
+    "categories": ["Maya", "animation"],
+    "description": "Une expérience multimédia visuelle et sonore, contrôlée par Max et TouchDesigner."
+  }
+]
