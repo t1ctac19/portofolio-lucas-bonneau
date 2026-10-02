@@ -5,6 +5,10 @@
         z-index: 10;
     }
 
+  .nav-toggle {
+        display: none;
+    }
+
 
 body {
   margin: 0;
