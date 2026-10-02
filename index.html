@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="robots" content="noindex, nofollow">  <!-- Empêche l'indexation par les moteurs de recherche -->
+    <title>Lucas Bonneau - Portfolio</title>
     <link rel="stylesheet" href="css/variable.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/component/project_card.css" />
     <link rel="stylesheet" href="css/component/progress_bar.css" />
     <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/component/modales.css" />
     <script src="js/data.js" defer></script>
     <script src="js/main.js" defer></script>
     <script src="js/component/project_card.js" defer></script>
@@ -23,16 +25,17 @@
       <span></span>
       <span></span>
     </label>
-    <nav class="site-navigation" id="site-navigation" aria-label="Navigation principale">
+    <nav class="site-navigation" id="site-navigation" aria-label="Navigation principale"> <!-- ajoute un lien vers chaque section -->
       <a class="site-navigation__link site-navigation__link--blue" href="#accueil">Accueil</a>
       <a class="site-navigation__link site-navigation__link--green" href="#projets">Projets</a>
       <a class="site-navigation__link site-navigation__link--blue" href="#competences">Compétences</a>
       <a class="site-navigation__link site-navigation__link--green" href="#contact">Contact</a>
     </nav>
     <main>
+      <input class="tabradio" type="radio" name="project-modal" id="project-modal-none" checked />
       <header class="hero" aria-label="Présentation">
         <h1 class="hero__name">
-          <span class="hero__name--first">Lucas</span>
+          <span class="hero__name--first">Lucas</span> <!-- titre de la page -->
           <span class="hero__name--last">Bonneau</span>
         </h1>
         <p class="hero__portfolio">Portfolio</p>
@@ -40,7 +43,7 @@
 
       <div class="container" id="accueil">
         <div class="demo-reel-text">
-          <h2 class="demo-reel-title">
+          <h2 class="demo-reel-title"> <!-- carte demo reel-->
             <span>Demo</span>
             <span>Reel</span>
           </h2>
@@ -52,37 +55,35 @@
             </div>
             <div class="component-card-top"></div>
             <div>
-              <img src="assets/images/iliria.png" alt="projet demo reel" />
+              <iframe class="demo-reel-video" src="https://www.youtube.com/embed/tMkdCppvRn4" title="export demo reel ordi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="background-card">
               <div class="classification-order-card">
                 <div class="classification-card1">
-                  <p>photoshop</p>
+                  <p>davinci resolve</p>  <!-- pages dans le modales pop up -->
                 </div>
                 <div class="classification-card2">
-                  <p>vectorielle</p>
+                  <p>montage</p>
                 </div>
               </div>
-              <p class="header-paragraph">Les cendres d’illiria</p>
+              <p class="header-paragraph">Demo Reel</p>
               <p class="text-paragraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                une vidéo montrant mes meilleurs projets fait durant la technique
               </p>
+              <a class="project-button" href="https://www.youtube.com/watch?v=tMkdCppvRn4" target="_blank" rel="noopener noreferrer">Voir le projet</a>
             </div>
           </div>
         </div>
       </div>
 
-      <section class="projects-section" id="projets" aria-labelledby="projects-title">
+      <section class="projects-section" id="projets" aria-labelledby="projects-title"> <!-- mes 4 projets en js -->
         <h2 id="projects-title" class="projects-title">Autres projets</h2>
         <div class="projects-grid">
          
         </div>
       </section>
 
-      <section class="progress-section" id="competences" aria-labelledby="progress-title">
+      <section class="progress-section" id="competences" aria-labelledby="progress-title"> <!-- Mes barre de progression liées aux compétences -->
         <h2 id="progress-title" class="progress-title">Mes compétences</h2>
         <div class="progress-component">
           <span class="progress-component__label">Maya</span>
@@ -198,5 +199,6 @@
         </div>
       </section>
     </main>
+
   </body>
 </html>

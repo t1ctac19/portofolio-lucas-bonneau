@@ -13,7 +13,9 @@ async function init() {
     console.log(project.title);
   });
  
-  projects.forEach((project) => {
+  projects.forEach((project, index) => {
+    const projectModalId = `project-modal-${index + 2}`;
+
     project_grid.insertAdjacentHTML(
       "beforeend",
       `<article class="component-card">
@@ -38,6 +40,19 @@ async function init() {
                 <p class="text-paragraph">
                   ${project.description}
                 </p>
+                <input class="tabradio" type="radio" name="project-modal" id="${projectModalId}" />
+                <label class="project-button tablabel" for="${projectModalId}">
+                  ${project.bouton}
+                </label>
+                <article class="panel project-modal-panel" id="project-panel-${index + 2}">
+                  <label class="project-modal-panel__close" for="project-modal-none" aria-label="Fermer la fenêtre">&times;</label>
+                  <img src="${project.image}" alt="${project.alt}" />
+                  <div>
+                    <p>${project.number}</p>
+                    <h2>${project.title}</h2>
+                    <p>${project.description}</p>
+                  </div>
+                </article>
               </div>
             </div>
           </article>`,

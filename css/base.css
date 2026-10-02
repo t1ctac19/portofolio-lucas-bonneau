@@ -1,12 +1,5 @@
-/*
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-*/
-  .burger {
+.burger {
         display: none;
         cursor: pointer;
         z-index: 10;

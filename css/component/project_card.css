@@ -22,6 +22,14 @@
   height: auto;
 }
 
+.demo-reel-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+}
+
 .header-card {
   font-size: 1rem;
   font-weight: thin;
@@ -126,6 +134,25 @@
   width: 90%;
   color: var(--white-color);
   font-family: var(--font-family-secondary);
+}
+
+.project-button {
+  align-self: flex-start;
+  margin: 1rem 5% 0;
+  padding: 0.65rem 1rem;
+  border: 2px solid var(--green-color);
+  background-color: var(--green-color);
+  color: var(--primary-background-color);
+  font-family: var(--font-family-secondary);
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.project-button:hover,
+.project-button:focus-visible {
+  background-color: transparent;
+  color: var(--green-color);
 }
 
 .projects-grid .component-card > div {
