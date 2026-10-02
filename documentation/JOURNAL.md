@@ -2,31 +2,38 @@ crée moi un portfolio avec cette persona
 -	J’aimerais avoir un stage dans une compagnie faisant de l’animation 2d ou 3d
 -	Une petite entreprise
 -	Mon talent et mes anciens travaux
--	Un design simple avec des couleurs assez sombre avec des touches de bleu et de vert
+-	Un design simple avec des couleurs assez sombre avec des touches de bleu
 -	J’aimerais qu’elle ai aimée mon portfolio
 
+## Bloc 2 : intégration et données
 
-## Template a éffacé
-- **Date :** 2026-09-01
-- **Prompt :** "Crée une liste de cartes de projets en HTML et CSS, avec la technique CSS Grid, qui s'adapte à la largeur de l'écran. Chaque carte doit contenir une image, un titre et une description."
-- **Outil :** Co-Pilot (VS Code)
-- **Résultat :** Le code généré par l'IA a été intégré dans le fichier `index.html` et `style.css`. J'ai ensuite moi même modifié la couleur de fond des cartes et ajusté la taille de la police pour améliorer la lisibilité.
+Qu'est-ce que j'ai accompli depuis le dernier bloc? (Vous pouvez faire référence à vos commits.)
+- j'ai créer un portflio fonctionnel presqu'a 100%
+  
+Quelle a été ma principale difficulté et comment je l'ai surmontée?
+- le js, j'ai regarder des tutos Youtube et j'ai demander de l'aide
 
+Qu'est-ce que j'ai appris que je ne savais pas avant?
+- Qu'on pouvais faire un modale sans js grace a des box radio ou des checkbo
 
+Quelle est ma prochaine étape concrète?
+- faire les animations
 
+Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris
+- oui, pour faire des tache répétitive comme copié collé mes templates, faire des nouveaux components et régler des bugs facilement.
 
 ## prompt 
 
 #### 1er
 - **Date :** 2026-09-11
-- **Prompt :** "crée moi un portfolio avec cette persona. J’aimerais avoir un stage dans une compagnie faisant de l’animation 2d ou 3d. Une petite entreprise. Mon talent et mes anciens travaux. Un design simple avec des couleurs assez sombre avec des touches de bleu. J’aimerais qu’elle ai aimée mon portfolio"
+- **Prompt :** "*crée moi un portfolio avec cette persona. J’aimerais avoir un stage dans une compagnie faisant de l’animation 2d ou 3d. Une petite entreprise.* Mon talent et mes anciens travaux. Un design simple avec des couleurs assez sombre avec des touches de bleu. J’aimerais qu’elle ai aimée mon portfolio"
 - **Outil :** stitch.ai
 - **Résultat :** Le code généré par l'IA a été intégré dans le fichier `index.html` et `style.css`. J'ai ensuite moi même modifié la couleur de fond des cartes et ajusté la taille de la police pour améliorer la lisibilité.
 
   
 ### 2e
 - **Date :** 2026-09-18
-- **Prompt :** "peux tu régler mes css, il semble y avoir une erreur qui empèche mon css d'aparaitre dans la page "
+- **Prompt :** "*peux tu régler mes css, il semble y avoir une erreur qui empèche mon css d'aparaitre dans la page*"
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a régler mon problème en liant bien mes css et mon html
 
@@ -34,14 +41,14 @@ crée moi un portfolio avec cette persona
 
 ### 3e
 - **Date :** 2026-09-18
-- **Prompt :** "peux tu réduire la hauteur des deux classification-card en les laissant au milieu de leur border "
+- **Prompt :** "*peux tu réduire la hauteur des deux classification-card en les laissant au milieu de leur border* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a régler mon problème en liant bien mes css et mon html
 
 
 ### 4e
 - **Date :** 2026-09-18
-- **Prompt :** "peux tu m'aider a rendre l'entièreté de mon component responsive "
+- **Prompt :** "*peux tu m'aider a rendre l'entièreté de mon component responsive* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a rendu mon component plus responsive, mais se n'est pas parfait 
 
@@ -49,19 +56,19 @@ crée moi un portfolio avec cette persona
 ### 5e
 
 - **Date :** 2026-09-22
-- **Prompt :** "peux tu mettres le titre demo reel a gauche du component a l'aide de grid "
+- **Prompt :** "*peux tu mettres le titre demo reel a gauche du component a l'aide de grid* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a mit le texte a gauche complètement j'ai donc du le modifier un petit peu
 
 ### 6e
 - **Date :** 2026-09-22
-- **Prompt :** "peux importe la grosseur de la page je voudrais que le titre reste a gauche du component tout en étant responsive, modifie un peu le component pour qu'il reste a a peut près 50% de la page et le titre demo reel aussi "
+- **Prompt :** "*peux importe la grosseur de la page je voudrais que le titre reste a gauche du component tout en étant responsive, modifie un peu le component pour qu'il reste a a peut près 50% de la page et le titre demo reel aussi* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a divisé les proportions en deux
 
 ### 7e
 - **Date :** 2026-09-22
-- **Prompt :** "le demo reel devrait prendre moins d'espace finalement et être moins collé a gauche "
+- **Prompt :** "*le demo reel devrait prendre moins d'espace finalement et être moins collé a gauche* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a mit le texte au centre de son grid et il a retiré le media querry pour une raison quelconque 
 
@@ -69,14 +76,14 @@ crée moi un portfolio avec cette persona
 
 ### 8e
 - **Date :** 2026-09-22
-- **Prompt :** "remet le media quarry et remet le component a 50% "
+- **Prompt :** "*remet le media quarry et remet le component a 50%* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a régler le problème qu'il avait créé
 
 
 ### 9e
 - **Date :** 2026-09-22
-- **Prompt :** "crée 4 nouveau component pareil au premier dans un nouveau grid en 2x2 et avec un titre en haut des 4, met les nouveau component après l'ancien pour créé une nouvelle section  "
+- **Prompt :** "*crée 4 nouveau component pareil au premier dans un nouveau grid en 2x2 et avec un titre en haut des 4, met les nouveau component après l'ancien pour créé une nouvelle section*  "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a créé 4 nouveau component avec le design que j'avait créé moi-même mais les titre sont mal aligné
 
@@ -84,186 +91,186 @@ crée moi un portfolio avec cette persona
 
 ### 10e
 - **Date :** 2026-09-22
-- **Prompt :** "remplace le moodboard par le projet iliria  "
+- **Prompt :** "*remplace le moodboard par le projet iliria*  "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a remplacé le projet par le bon
 
 
 ### 11e
 - **Date :** 2026-09-23
-- **Prompt :** "peux tu réduires la grosseur des card component de 30%  "
+- **Prompt :** "*peux tu réduires la grosseur des card component de 30%*  "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a réduit la taille des 4 nouveaux projet mais pas celui du haut
 
 
 ### 12e
 - **Date :** 2026-09-23
-- **Prompt :** "colles plus les nouveaux et réduit aussi le premier gros  "
+- **Prompt :** "*colles plus les nouveaux et réduit aussi le premier gros*  "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a rien changé 
 
 ### 12e
 - **Date :** 2026-09-23
-- **Prompt :** "réduit la grosseur du component a coté de demo reel de 15 % et agrandi les component de 15% aussi  "
+- **Prompt :** "*réduit la grosseur du component a coté de demo reel de 15 % et agrandi les component de 15% aussi*  "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a juste modifier la grosseur des 4 nouveaux
 
 
 ### 13e
 - **Date :** 2026-09-23
-- **Prompt :** "éloigne les deux sections pour mieux les distingué  "
+- **Prompt :** "*éloigne les deux sections pour mieux les distingué*  "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a rien fait je l'ai déplacé a la mains 
 
 
 ### 14e
 - **Date :** 2026-09-23
-- **Prompt :** "peux tu régler mon project title il ne semble pas appliqué le css "
+- **Prompt :** "*peux tu régler mon project title il ne semble pas appliqué le css* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** le css s'applique
 
-  ### 15e
+  ### 16e
 - **Date :** 2026-09-23
-- **Prompt :** "peut tu rendre la typo de tout mes --font-family moins gras "
+- **Prompt :** "*peut tu rendre la typo de tout mes --font-family moins gras* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a régler mon problème de typo
 
 
-  ### 15e
+  ### 17e
 - **Date :** 2026-09-23
-- **Prompt :** "  peux tu créer un component qui resemble a sa, c'est une barre de progression, met le css dans le dossier progress_bar.css "
+- **Prompt :** "  *peux tu créer un component qui resemble a sa, c'est une barre de progression, met le css dans le dossier progress_bar.css* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a créer quelque chose qui ne ressemblais pas a la photo
 
 
 
-  ### 16e
-- **Date :** 2026-09-23
-- **Prompt :** "  enlève le curseur blanc, remet le titre que tu as enlevé, allonge la barre pour que sa soit au moins 75% de la page et remet la nouvelle section "
-- **Outil :** Co-Pilot (VS Code)
-- **Résultat :** il a refait la barre mais sans mettre d'espace entre les deux sections
-
-
-
-  ### 16e
-- **Date :** 2026-09-23
-- **Prompt :** "sépare la section autre projet et la section progress  "
-- **Outil :** Co-Pilot (VS Code)
-- **Résultat :** il a refait la barre mais sans mettre d'espace entre les deux sections
-
-  ### 17e
-- **Date :** 2026-09-23
-- **Prompt :** "peux tu mettres le texte du progress bar au dessus de la barre et non a l'intérieur  "
-- **Outil :** Co-Pilot (VS Code)
-- **Résultat :** il a sortie le texte de la progress bar
-
-
-  ### 17e
-- **Date :** 2026-09-23
-- **Prompt :** "rend la progress bar et le texte qui l'acompagne responsive elle devrait devenir plus mince   "
-- **Outil :** Co-Pilot (VS Code)
-- **Résultat :** il a rendu la progress bar plus ou moins responsive
-
   ### 18e
 - **Date :** 2026-09-23
-- **Prompt :** "rend mes titres responsive   "
+- **Prompt :** "  *enlève le curseur blanc, remet le titre que tu as enlevé, allonge la barre pour que sa soit au moins 75% de la page et remet la nouvelle section* "
 - **Outil :** Co-Pilot (VS Code)
-- **Résultat :** il a rendu les titres responsive
+- **Résultat :** il a refait la barre mais sans mettre d'espace entre les deux sections
 
 
 
   ### 19e
 - **Date :** 2026-09-23
-- **Prompt :** "refait se design pour ma page contact    "
+- **Prompt :** "*sépare la section autre projet et la section progress*  "
 - **Outil :** Co-Pilot (VS Code)
-- **Résultat :** il a créé ma page contact mais j'ai du modifier les titres 
+- **Résultat :** il a refait la barre mais sans mettre d'espace entre les deux sections
 
   ### 20e
 - **Date :** 2026-09-23
-- **Prompt :** "rend le titre contact de la même grosseur que les autre titre de section    "
+- **Prompt :** "*peux tu mettres le texte du progress bar au dessus de la barre et non a l'intérieur*  "
 - **Outil :** Co-Pilot (VS Code)
-- **Résultat :** il a régler le titre 
+- **Résultat :** il a sortie le texte de la progress bar
 
 
   ### 21e
 - **Date :** 2026-09-23
-- **Prompt :** "refait se design pour le titre demo reel    "
+- **Prompt :** "*rend la progress bar et le texte qui l'acompagne responsive elle devrait devenir plus mince*   "
 - **Outil :** Co-Pilot (VS Code)
-- **Résultat :** il a régler le titre
+- **Résultat :** il a rendu la progress bar plus ou moins responsive
 
   ### 22e
 - **Date :** 2026-09-23
-- **Prompt :** "rend mes component-card plus responsive le classification ne fontionne vraiment pas bien, écrase les un peu moins aussi    "
+- **Prompt :** "*rend mes titres responsive*   "
 - **Outil :** Co-Pilot (VS Code)
-- **Résultat :** il a régler le titre
+- **Résultat :** il a rendu les titres responsive
 
 
 
   ### 23e
 - **Date :** 2026-09-23
-- **Prompt :** "peut tu me faire une nav bar avec le meme design que les classification-card, il faudrais 4 bouton différent    "
+- **Prompt :** "*refait se design pour ma page contact*   "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a créé ma page contact mais j'ai du modifier les titres 
+
+  ### 24e
+- **Date :** 2026-09-23
+- **Prompt :** "*rend le titre contact de la même grosseur que les autre titre de section*    "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a régler le titre 
+
+
+  ### 25e
+- **Date :** 2026-09-23
+- **Prompt :** "*refait se design pour le titre demo reel*    "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a régler le titre
+
+  ### 26e
+- **Date :** 2026-09-23
+- **Prompt :** "*rend mes component-card plus responsive le classification ne fontionne vraiment pas bien, écrase les un peu moins aussi*    "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a régler le titre
+
+
+
+  ### 27e
+- **Date :** 2026-09-23
+- **Prompt :** "*peut tu me faire une nav bar avec le meme design que les classification-card, il faudrais 4 bouton différent*    "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a créer une nav bar fonctionnelle 
 
-  ### 24
+  ### 28
 
 - **Date :** 2026-10-01
-- **Prompt :** "crée moi un bouton voir projet en dessous de la description de mes component et connecte le au "bouton" de projects.json     "
+- **Prompt :** "*crée moi un bouton voir projet en dessous de la description de mes component et connecte le au "bouton" de projects.json*     "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a créer un bouton
 
 
 
-  ### 25
+  ### 29
 
 - **Date :** 2026-10-01
-- **Prompt :** "peut tu rajouter mon bouton au demo reel aussi"
+- **Prompt :** "*peut tu rajouter mon bouton au demo reel aussi*"
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a ajouter le bouton a mon demo reel
 
   
 
-  ### 26
+  ### 30
 
 - **Date :** 2026-10-01
-- **Prompt :** "peux tu utiliser les labael et mon ancien modales css pour faire le modales ?"
+- **Prompt :** "*peux tu utiliser les labael et mon ancien modales css pour faire le modales ?*"
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a ajouter le bouton a mon demo reel
 
 
 
-  ### 27
+  ### 31
 
 - **Date :** 2026-10-01
-- **Prompt :** "connecte mes boutons a mon css modales ?"
+- **Prompt :** "*connecte mes boutons a mon css modales ?*"
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a créer beaucoup trop de chose et n'a pas connecter mon css il en a créer un nouveau
 
-  ### 28
+  ### 32
 
 - **Date :** 2026-10-01
-- **Prompt :** "peux tu utiliser les labael et mon ancien modales css pour faire le modales ?"
+- **Prompt :** "*peux tu utiliser les labael et mon ancien modales css pour faire le modales ?*"
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a utiliser mon css et a enlevé tout le sien
 
-   ### 29
+   ### 33
 
 - **Date :** 2026-10-01
-- **Prompt :** "peut tu refaire le X quand on ferme le modale il n'est pas centré"
+- **Prompt :** "*peut tu refaire le X quand on ferme le modale il n'est pas centré*"
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a centré le X
 
-   ### 30
+   ### 34
 
 - **Date :** 2026-10-01
-- **Prompt :** "peut tu rendre mes pop up modales beaucoup plus gros"
+- **Prompt :** "*peut tu rendre mes pop up modales beaucoup plus gros*"
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a rendu mes modales plus gros
 
-   ### 31
+   ### 35
 
 - **Date :** 2026-10-01
-- **Prompt :** "crée moi un footer logique pour ma page "
+- **Prompt :** "*crée moi un footer logique pour ma page* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a rendu mes modales plus gros
   
