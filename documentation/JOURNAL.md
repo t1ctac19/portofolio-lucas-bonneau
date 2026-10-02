@@ -260,7 +260,12 @@ crée moi un portfolio avec cette persona
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a rendu mes modales plus gros
 
+   ### 31
 
+- **Date :** 2026-10-01
+- **Prompt :** "crée moi un footer logique pour ma page "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a rendu mes modales plus gros
   
 
 
