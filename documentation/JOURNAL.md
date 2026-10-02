@@ -205,7 +205,63 @@ crée moi un portfolio avec cette persona
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a créer une nav bar fonctionnelle 
 
+  ### 24
 
+- **Date :** 2026-10-01
+- **Prompt :** "crée moi un bouton voir projet en dessous de la description de mes component et connecte le au "bouton" de projects.json     "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a créer un bouton
+
+
+
+  ### 25
+
+- **Date :** 2026-10-01
+- **Prompt :** "peut tu rajouter mon bouton au demo reel aussi"
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a ajouter le bouton a mon demo reel
+
+  
+
+  ### 26
+
+- **Date :** 2026-10-01
+- **Prompt :** "peux tu utiliser les labael et mon ancien modales css pour faire le modales ?"
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a ajouter le bouton a mon demo reel
+
+
+
+  ### 27
+
+- **Date :** 2026-10-01
+- **Prompt :** "connecte mes boutons a mon css modales ?"
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a créer beaucoup trop de chose et n'a pas connecter mon css il en a créer un nouveau
+
+  ### 28
+
+- **Date :** 2026-10-01
+- **Prompt :** "peux tu utiliser les labael et mon ancien modales css pour faire le modales ?"
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a utiliser mon css et a enlevé tout le sien
+
+   ### 29
+
+- **Date :** 2026-10-01
+- **Prompt :** "peut tu refaire le X quand on ferme le modale il n'est pas centré"
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a centré le X
+
+   ### 30
+
+- **Date :** 2026-10-01
+- **Prompt :** "peut tu rendre mes pop up modales beaucoup plus gros"
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a rendu mes modales plus gros
+
+
+  
 
 
 
