@@ -34,7 +34,7 @@
   {
     "number": "projet // 05",
     "title": "seul",
-    "image": "./assets/images/seul.png",
+    "image": ["./assets/images/seul.png"],
     "alt": "projet seul",
     "categories": ["Maya", "animation"],
     "description": "Une expérience multimédia visuelle et sonore, contrôlée par Max et TouchDesigner.",

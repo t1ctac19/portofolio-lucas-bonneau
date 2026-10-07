@@ -43,18 +43,21 @@
 .project-modal-panel {
 	position: relative;
 	display: none;
-	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-	gap: 1.5rem;
+	grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+	gap: 2rem;
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	width: min(92vw, 72rem);
+	width: min(96vw, 84rem);
+	max-height: 88vh;
 	box-sizing: border-box;
 	transform: translate(-50%, -50%);
 	z-index: 10;
-	padding: 2.5rem;
+	padding: 3rem 2.5rem 2.5rem;
 	background-color: var(--secondary-background-color);
 	color: var(--white-color);
+	box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.35);
+	overflow-y: auto;
 }
 
 .tabradio:checked ~ .project-modal-panel {
@@ -63,18 +66,18 @@
 
 .project-modal-panel__close {
 	position: absolute;
-	top: 0.75rem;
-	right: 0.75rem;
+	top: 1rem;
+	right: 1rem;
 	display: grid;
 	place-items: center;
-	width: 2rem;
-	height: 2rem;
+	width: 2.75rem;
+	height: 2.75rem;
 	padding: 0;
 	border: 2px solid var(--green-color);
 	background-color: var(--primary-background-color);
 	color: var(--green-color);
 	font-family: sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	line-height: 1;
 	cursor: pointer;
 }
@@ -82,8 +85,9 @@
 .project-modal-panel img {
 	width: 100%;
 	height: 100%;
-	min-height: 24rem;
+	min-height: 30rem;
 	object-fit: cover;
+	border-radius: 0.5rem;
 }
 
 .project-modal-panel > div {
@@ -94,7 +98,7 @@
 
 
 .project-modal-panel > div > p:first-child {
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: thin;
 	margin: 0 0 0 3%;
 	color: var(--secondary-color);
@@ -105,10 +109,12 @@
 	margin: 0;
 	color: var(--secondary-color);
 	font-family: var(--font-family-secondary);
+	font-size: 1.1rem;
+	line-height: 1.7;
 }
 
 .project-modal-panel h2 {
-	font-size: 2rem;
+	font-size: 2.7rem;
 	font-weight: bold;
 	margin-top: 3%;
 	margin-bottom: 0;
@@ -120,37 +126,46 @@
 }
 
 .project-modal-panel > div p:last-child {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: thin;
 	margin-top: 1%;
 	margin-left: 5%;
 	width: 90%;
 	color: var(--white-color);
 	font-family: var(--font-family-secondary);
+	line-height: 1.7;
 }
 
 @media (max-width: 900px) {
 	.project-modal-panel {
-		width: min(90vw, 48rem);
-		gap: 1rem;
-		padding: 1.5rem;
+		width: min(90vw, 60rem);
+		gap: 1.5rem;
+		padding: 2.25rem 1.5rem 1.5rem;
 	}
 
 	.project-modal-panel img {
-		min-height: 16rem;
+		min-height: 20rem;
+	}
+
+	.project-modal-panel h2 {
+		font-size: 2.2rem;
 	}
 }
 
 @media (max-width: 600px) {
 	.project-modal-panel {
-		width: 88vw;
+		width: 90vw;
 		grid-template-columns: 1fr;
-		gap: 0.75rem;
-		padding: 1rem;
+		gap: 1rem;
+		padding: 1.25rem 1rem 1rem;
 	}
 
 	.project-modal-panel img {
-		min-height: 10rem;
-		max-height: 14rem;
+		min-height: 12rem;
+		max-height: 18rem;
+	}
+
+	.project-modal-panel h2 {
+		font-size: 1.8rem;
 	}
 }
