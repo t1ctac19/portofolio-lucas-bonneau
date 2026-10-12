@@ -273,7 +273,31 @@ Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris
 - **Prompt :** "*crée moi un footer logique pour ma page* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a rendu mes modales plus gros
+
+   ### 36
+
+- **Date :** 2026-10-01
+- **Prompt :** "*pourrais tu créer un carroussel d'image pour le projet illiria et seul avec les image nommé avec le meme nom* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a créer un carrousel
   
+
+   ### 37
+
+- **Date :** 2026-10-01
+- **Prompt :** "*j'aimerais que tu mettes les carroussel seulement dans le pop up* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a enlever le carrousel dans la page principal et l'à laisser dans le pop up
+
+
+
+   ### 38
+
+- **Date :** 2026-10-01
+- **Prompt :** "* peut tu rajouter mon processus de création dans le pop up de messenger rise avec les image du meme nom* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a ajouter mon processus de création
+
 
 
 
