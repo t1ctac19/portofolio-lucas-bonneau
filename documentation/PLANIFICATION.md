@@ -234,11 +234,11 @@ Anime.js ou gsap, nous avons déjà appris a utilisé Anime.js et gsap semble re
 
 ### Structure de navigation
 
-One-pager avec pop-up
+One-pager avec pop-up c'est moins compliqué que de faire plusieurs pages html
 
 ### Hébergement
 
-GitHub Pages 
+GitHub Pages c'est gratuit et facile 
 
 
 
