@@ -3,7 +3,108 @@ async function loadProjects() {
   const projects = await response.json(); // 2. le contenu, converti
   return projects; // 3. un tableau de projets
 }
- 
+
+function createCarousel(images, alt, projectTitle) {
+  const slides = images
+    .map(
+      (image, imageIndex) => `
+        <img
+          class="project-carousel__image${imageIndex === 0 ? " project-carousel__image--active" : ""}${image.endsWith("messenger_rise_03.png") ? " project-carousel__image--contain" : ""}"
+          src="${image}"
+          alt="${alt} - image ${imageIndex + 1}"
+          data-carousel-slide="${imageIndex}"
+          ${imageIndex === 0 ? "" : "hidden"}
+        />`,
+    )
+    .join("");
+
+  const indicators = images
+    .map(
+      (_, imageIndex) => `
+        <button
+          class="project-carousel__indicator${imageIndex === 0 ? " project-carousel__indicator--active" : ""}"
+          type="button"
+          aria-label="Afficher l'image ${imageIndex + 1} de ${projectTitle}"
+          aria-current="${imageIndex === 0 ? "true" : "false"}"
+          data-carousel-go-to="${imageIndex}"
+        ></button>`,
+    )
+    .join("");
+
+  return `
+    <div class="project-carousel" data-carousel>
+      <div class="project-carousel__viewport">
+        ${slides}
+        <button class="project-carousel__button project-carousel__button--previous" type="button" aria-label="Image précédente" data-carousel-action="previous">&lsaquo;</button>
+        <button class="project-carousel__button project-carousel__button--next" type="button" aria-label="Image suivante" data-carousel-action="next">&rsaquo;</button>
+      </div>
+      <div class="project-carousel__indicators" aria-label="Images du projet">
+        ${indicators}
+      </div>
+    </div>`;
+}
+
+function createProjectVisual(project) {
+  const images = Array.isArray(project.image) ? project.image : [project.image];
+
+  return images.length > 1
+    ? createCarousel(images, project.alt, project.title)
+    : `<img src="${images[0]}" alt="${project.alt}" />`;
+}
+
+function createProjectCardVisual(project) {
+  const image = Array.isArray(project.image) ? project.image[0] : project.image;
+
+  return `<img src="${image}" alt="${project.alt}" />`;
+}
+
+function createProcessSection(process, processId) {
+  if (!process) {
+    return "";
+  }
+
+  return `
+    <section class="project-process" aria-labelledby="${processId}">
+      <h3 id="${processId}">Processus de création</h3>
+      <ol>
+        ${process.map((step) => `<li>${step}</li>`).join("")}
+      </ol>
+    </section>`;
+}
+
+function initCarousels() {
+  document.querySelectorAll("[data-carousel]").forEach((carousel) => {
+    const slides = [...carousel.querySelectorAll("[data-carousel-slide]")];
+    const indicators = [...carousel.querySelectorAll("[data-carousel-go-to]")];
+    let currentIndex = 0;
+
+    const showSlide = (nextIndex) => {
+      currentIndex = (nextIndex + slides.length) % slides.length;
+      slides.forEach((slide, index) => {
+        const isActive = index === currentIndex;
+        slide.hidden = !isActive;
+        slide.classList.toggle("project-carousel__image--active", isActive);
+      });
+      indicators.forEach((indicator, index) => {
+        const isActive = index === currentIndex;
+        indicator.classList.toggle("project-carousel__indicator--active", isActive);
+        indicator.setAttribute("aria-current", String(isActive));
+      });
+    };
+
+    carousel.addEventListener("click", (event) => {
+      const actionButton = event.target.closest("[data-carousel-action]");
+      const indicator = event.target.closest("[data-carousel-go-to]");
+
+      if (actionButton) {
+        showSlide(currentIndex + (actionButton.dataset.carouselAction === "next" ? 1 : -1));
+      } else if (indicator) {
+        showSlide(Number(indicator.dataset.carouselGoTo));
+      }
+    });
+  });
+}
+
 async function init() {
   const projects = await loadProjects();
   const project_grid = document.querySelector(".projects-grid");
@@ -25,10 +126,7 @@ async function init() {
               </div>
               <div class="component-card-top"></div>
               <div class="image-card">
-                <img
-                  src="${project.image}"
-                  alt="projet ${project.title}"
-                />
+                ${createProjectCardVisual(project)}
               </div>
               <div class="background-card">
                 <div class="classification-order-card">
@@ -46,11 +144,12 @@ async function init() {
                 </label>
                 <article class="panel project-modal-panel" id="project-panel-${index + 2}">
                   <label class="project-modal-panel__close" for="project-modal-none" aria-label="Fermer la fenêtre">&times;</label>
-                  <img src="${project.image}" alt="${project.alt}" />
+                  ${createProjectVisual(project)}
                   <div>
                     <p>${project.number}</p>
                     <h2>${project.title}</h2>
                     <p>${project.description}</p>
+                    ${createProcessSection(project.process, `${projectModalId}-process-title`)}
                   </div>
                 </article>
               </div>
@@ -58,8 +157,8 @@ async function init() {
           </article>`,
     );
   });
+
+  initCarousels();
 }
 
 init();
-
-

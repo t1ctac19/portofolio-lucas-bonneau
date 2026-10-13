@@ -5,7 +5,14 @@
   {
     "number": "projet // 02",
     "title": "Les cendres d'Iliria",
-    "image": "./assets/images/iliria.png",
+    "image": [
+      "./assets/images/iliria.png",
+      "./assets/images/iliria_02.png",
+      "./assets/images/iliria_03.png",
+      "./assets/images/iliria_04.png",
+      "./assets/images/iliria_05.png",
+      "./assets/images/iliria_06.png"
+    ],
     "alt": "projet iliria",
     "categories": ["photoshop", "vectorielle"],
     "description": "Illustration de 6 images en vectoriel pour une intro de film fictif.",
@@ -15,10 +22,24 @@
   {
     "number": "projet // 03",
     "title": "Messenger Rise",
-    "image": "./assets/images/messenger_rise.png",
+    "image": [
+      "./assets/images/messenger_rise.png",
+      "./assets/images/messenger_rise_02.png",
+      "./assets/images/messenger_rise_03.png"
+    ],
     "alt": "projet messenger rise",
     "categories": ["unity", "level design"],
     "description": "Un jeu interactif en VR avec un système de lettres à aller livrer.",
+    "process": [
+      "Création d'un Trello pour organiser les idées et répartir les tâches.",
+      "Création de la base de chaque carte pour que chaque membre ait une surface de travail.",
+      "Regroupement des objets en ensembles, comme les tables avec leurs objets et les granges.",
+      "Ajout des animations de tous les personnages et placement dans les différentes cartes.",
+      "Création des hitbox pour empêcher le joueur de traverser les murs et les objets.",
+      "Finalisation des cartes avec le placement des objets et les tests de hitbox.",
+      "Création d'une carte de victoire pour offrir une vraie conclusion au jeu.",
+      "Tests en équipe pour s'assurer que l'expérience en réalité virtuelle fonctionne correctement."
+    ],
     "bouton": "Voir le projet"
   },
   {
@@ -34,7 +55,12 @@
   {
     "number": "projet // 05",
     "title": "seul",
-    "image": ["./assets/images/seul.png"],
+    "image": [
+      "./assets/images/seul.png",
+      "./assets/images/seul_02.png",
+      "./assets/images/seul_03.png",
+      "./assets/images/seul_04.png"
+    ],
     "alt": "projet seul",
     "categories": ["Maya", "animation"],
     "description": "Une expérience multimédia visuelle et sonore, contrôlée par Max et TouchDesigner.",
