@@ -298,7 +298,12 @@ Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a ajouter mon processus de création
 
+   ### 39
 
+- **Date :** 2026-10-01
+- **Prompt :** "* en version mobile le x pour fermer le pop up est derrière l'image* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a mis le x par dessus l'image
 
 
 
