@@ -4,12 +4,6 @@
 
 ![moodboard](../assets/images/moodboard.jpg)
 
-### Maquette
-
-| maquette web | maquette telephone |
-|:---:|:---:|
-| ![Image 1](../assets/images/maquette_web.pdf) | ![Image 2](../assets/images/maquette_telephone.pdf) |
-
 ### Mes compétences 
 
 - Réaliser et tourner des vidéos
