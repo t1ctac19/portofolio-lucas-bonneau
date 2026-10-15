@@ -15,7 +15,13 @@
     ],
     "alt": "projet iliria",
     "categories": ["photoshop", "vectorielle"],
+    "academicStatus": "Académique",
+    "course": "D'illustration numérique",
+    "teamStatus": "Équipe",
+    "teammates": "Jérémy Thériault",
     "description": "Illustration de 6 images en vectoriel pour une intro de film fictif.",
+    "context": "Une intro de film fictif faite entièrement en vectoriel incluant 12 images. Une histoire devait être accompagnée à notre projet pour expliquer le contexte du film.",
+    "realization": "On a créé une histoire comme demandé, mais on a décidé de faire notre projet dans un style semblable au pixel art. Puisque le vectoriel n'est pas fait pour le pixel art, c'était assez long de faire les personnages et les objets.",
     "bouton": "Voir le projet"
   },
 
@@ -29,7 +35,13 @@
     ],
     "alt": "projet messenger rise",
     "categories": ["unity", "level design"],
+    "academicStatus": "Académique",
+    "course": "Réalité mixte",
+    "teamStatus": "Équipe",
+    "teammates": "Jérémy Thériault, Zackary Warren",
     "description": "Un jeu interactif en VR avec un système de lettres à aller livrer.",
+    "context": "Un jeu en réalité virtuelle en équipe, le sujet était libre. Le jeu devait absolument contenir plusieurs objets interactifs.",
+    "realization": "On a créé un jeu de livreur de lettres dans un monde médiéval, le but du joueur est d'aller porter un certain nombre de lettres pour débloquer la prochaine zone, la dernière zone est le château du roi. Les lettres sont marquées par des faisceaux lumineux et l'endroit pour aller les porter aussi.",
     "process": [
       "Création d'un Trello pour organiser les idées et répartir les tâches.",
       "Création de la base de chaque carte pour que chaque membre ait une surface de travail.",
@@ -48,7 +60,12 @@
     "image": "./assets/images/shogun.png",
     "alt": "projet shogun",
     "categories": ["Godot", "programmation"],
+    "academicStatus": "Académique",
+    "course": "Interactivité ludique",
+    "teamStatus": "Individuel",
     "description": "Création d'un jeu vidéo en 2D avec des portes et des clés fonctionnelles ainsi que des animations et un gameplay poli.",
+    "context": "Une expérience interactive avec trois niveaux différents. Avec des objets interactifs spécifiques et une attribution de touches grâce à Godot.",
+    "realization": "J'ai fait un jeu de combat platformer dans le style de Blasphemous avec trois niveaux de plus en plus durs, le but est de tuer le dernier boss pour gagner.",
     "bouton": "Voir le projet"
   },
 
@@ -63,7 +80,12 @@
     ],
     "alt": "projet seul",
     "categories": ["Maya", "animation"],
+    "academicStatus": "Académique",
+    "course": "Animation 3D, traitement audiovisuel, audio 2",
+    "teamStatus": "Individuel",
     "description": "Une expérience multimédia visuelle et sonore, contrôlée par Max et TouchDesigner.",
+    "context": "On devait créer une grosse performance de 5 à 10 min qui combinait plusieurs cours, on devait avoir un projet d'animation 3D, une piste audio interactive grâce à Max et combiner le tout dans TouchDesigner. Une main devait contrôler les scènes de Touch grâce à une caméra et l'autre devait contrôler Max grâce à un contrôleur MIDI.",
+    "realization": "J'ai décidé d'animer un personnage qui marche seul sur une plage. Le thème de la plage et de la solitude était donc aussi mon thème dans Max et Touch.",
     "bouton": "Voir le projet"
   }
 ]

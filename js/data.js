@@ -72,6 +72,27 @@ function createProcessSection(process, processId) {
     </section>`;
 }
 
+function createProjectDetails(project) {
+  const details = [
+    ["Académique ou personnel", project.academicStatus],
+    ["Réalisé dans le cadre du cours", project.course],
+    ["Individuel ou en équipe", project.teamStatus],
+    ["Nom de vos coéquipiers", project.teammates],
+    ["Contexte du projet", project.context],
+    ["Réalisation", project.realization],
+  ].filter(([, description]) => description);
+
+  return details
+    .map(
+      ([title, description]) => `
+        <section class="project-description">
+          <h3>${title}</h3>
+          <p>${description}</p>
+        </section>`,
+    )
+    .join("");
+}
+
 function initCarousels() {
   document.querySelectorAll("[data-carousel]").forEach((carousel) => {
     const slides = [...carousel.querySelectorAll("[data-carousel-slide]")];
@@ -144,11 +165,11 @@ async function init() {
                 </label>
                 <article class="panel project-modal-panel" id="project-panel-${index + 2}">
                   <label class="project-modal-panel__close" for="project-modal-none" aria-label="Fermer la fenêtre">&times;</label>
-                  ${createProjectVisual(project)}
                   <div>
-                    <p>${project.number}</p>
                     <h2>${project.title}</h2>
-                    <p>${project.description}</p>
+                    <p class="project-modal__description">${project.description}</p>
+                    ${createProjectVisual(project)}
+                    ${createProjectDetails(project)}
                     ${createProcessSection(project.process, `${projectModalId}-process-title`)}
                   </div>
                 </article>

@@ -43,7 +43,7 @@
 .project-modal-panel {
 	position: relative;
 	display: none;
-	grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+	grid-template-columns: minmax(0, 1fr);
 	gap: 2rem;
 	position: fixed;
 	top: 50%;
@@ -64,14 +64,21 @@
 	min-width: 0;
 }
 
+.project-modal-panel > div {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
 .tabradio:checked ~ .project-modal-panel {
 	display: grid;
 }
 
 .project-modal-panel__close {
-	position: absolute;
+	position: sticky;
 	top: 1rem;
-	right: 1rem;
+	grid-column: 1 / -1;
+	justify-self: end;
 	z-index: 2;
 	display: grid;
 	place-items: center;
@@ -85,6 +92,7 @@
 	font-size: 1.8rem;
 	line-height: 1;
 	cursor: pointer;
+	margin: -2rem -1.5rem -2.75rem auto;
 }
 
 .project-modal-panel img {
@@ -93,6 +101,12 @@
 	min-height: 30rem;
 	object-fit: cover;
 	border-radius: 0.5rem;
+}
+
+.project-modal-panel > div > img,
+.project-modal-panel > div > .project-carousel {
+	width: 60%;
+	margin-inline: auto;
 }
 
 .project-modal-panel .project-carousel__image {
@@ -200,19 +214,22 @@
 }
 
 
-.project-modal-panel > div > p:first-child {
-	font-size: 1.1rem;
-	font-weight: thin;
-	margin: 0 0 0 3%;
-	color: var(--secondary-color);
-	font-family: var(--font-family-secondary);
-}
-
 .project-modal-panel p {
 	margin: 0;
-	color: var(--secondary-color);
+	color: var(--white-color);
 	font-family: var(--font-family-secondary);
 	font-size: 1.1rem;
+	line-height: 1.7;
+	text-align: left;
+}
+
+.project-modal-panel .project-modal__description {
+	font-size: 1.2rem;
+	font-weight: thin;
+	margin: 0 5% 1.5rem;
+	width: 90%;
+	color: var(--secondary-color);
+	font-family: var(--font-family-secondary);
 	line-height: 1.7;
 }
 
@@ -226,28 +243,43 @@
 	color: var(--white-color);
 	font-family: var(--font-family-secondary);
 	letter-spacing: -0.6px;
+	text-align: left;
 }
 
-.project-modal-panel > div p:last-child {
-	font-size: 1.2rem;
-	font-weight: thin;
-	margin-top: 1%;
-	margin-left: 5%;
+.project-description {
+	margin: 1.25rem 5% 0;
 	width: 90%;
-	color: var(--white-color);
+}
+
+.project-description h3 {
+	margin: 0 0 0.4rem;
+	width: 100%;
+	color: var(--green-color);
 	font-family: var(--font-family-secondary);
-	line-height: 1.7;
+	font-size: 1.25rem;
+	text-align: left;
+}
+
+.project-description p {
+	margin: 0;
+	width: 100%;
+	color: var(--white-color);
+	font-size: 1rem;
+	line-height: 1.6;
 }
 
 .project-process {
 	margin: 1.5rem 5% 0;
+	width: 90%;
 }
 
 .project-process h3 {
 	margin: 0 0 0.75rem;
+	width: 100%;
 	color: var(--green-color);
 	font-family: var(--font-family-secondary);
 	font-size: 1.35rem;
+	text-align: left;
 }
 
 .project-process ol {
