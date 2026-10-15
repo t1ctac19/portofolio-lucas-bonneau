@@ -293,17 +293,101 @@ Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris
 
    ### 38
 
-- **Date :** 2026-10-01
+- **Date :** 2026-10-12
 - **Prompt :** "* peut tu rajouter mon processus de création dans le pop up de messenger rise avec les image du meme nom* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a ajouter mon processus de création
 
    ### 39
 
-- **Date :** 2026-10-01
+- **Date :** 2026-10-12
 - **Prompt :** "* en version mobile le x pour fermer le pop up est derrière l'image* "
 - **Outil :** Co-Pilot (VS Code)
 - **Résultat :** il a mis le x par dessus l'image
+
+
+
+   ### 40
+
+- **Date :** 2026-10-14
+- **Prompt :** "*ajoute dans mes pop up la description de mes projets qui n'est pas déjà présente, sauf les description avec le titre description...* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a rajouter certaine description
+
+
+   ### 41
+
+- **Date :** 2026-10-14
+- **Prompt :** "*il maque encore certaine descrption comme: académique ou personnel, Réalisé dans le cadre du cours, Individuel ou en équipe, Nom de vos coéquipiers* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a rajouter certaine description
+
+
+   ### 42
+
+- **Date :** 2026-10-14
+- **Prompt :** "*aligne les titres avec les textes* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il n'a rien changer
+
+   ### 43
+
+- **Date :** 2026-10-14
+- **Prompt :** "*aligne les titres avec les textes* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a rien changer
+
+
+
+   ### 44
+
+- **Date :** 2026-10-14
+- **Prompt :** "*met le x du pop up en sticky* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a mit le x sticky
+  
+
+   ### 45
+
+- **Date :** 2026-10-14
+- **Prompt :** "*aligne les deux logo dans contact* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a aligné les logos
+
+
+   ### 46
+
+- **Date :** 2026-10-14
+- **Prompt :** "*met les pop up de manière vertical, le titre en haut et le sous titre et l'image juste en dessous puis la description* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a mit les pop up verticale mais les a modifier
+
+
+   ### 47
+
+- **Date :** 2026-10-14
+- **Prompt :** "*enlève le sous titre: projet... et met l'autre sous titre en bleu juste en dessous du titre* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a enlever le sous titre mais a modifier toute les couleurs
+
+
+   ### 48
+
+- **Date :** 2026-10-14
+- **Prompt :** "*remet les couleur comme avant et aligne le sous titre avec le titre* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a enlever le sous titre mais a modifier toute les couleurs
+
+
+   ### 49
+
+- **Date :** 2026-10-14
+- **Prompt :** "*modifie le breakpoint du demo reel pour qu'il soit le même que mes projet et augment un peu le gap entre les titres en haut de la page* "
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** il a enlever le sous titre mais a modifier toute les couleurs
+
+
+
 
 
 
